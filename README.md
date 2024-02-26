@@ -3,6 +3,7 @@ This is a simple React app that displays information about countries using cards
 
 Features
 Display a list of countries with relevant information in cards.
+filter by Region
 Click on a card to open a modal with additional details about the country.
 Responsive design using Bootstrap CSS.
 

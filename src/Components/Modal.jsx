@@ -10,7 +10,7 @@ const Modal = forwardRef(function Modal({ children, buttonCaption }, ref) {
     };
   });
   return createPortal(
-    <dialog ref={dialog} className="">
+    <dialog ref={dialog}>
       {children}
       <form method="dialog" className="mt-4 text-right">
         <button className="btn btn-secondary btn-sm">{buttonCaption}</button>
